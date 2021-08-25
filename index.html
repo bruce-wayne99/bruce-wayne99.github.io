@@ -1,1 +1,517 @@
-Hello World
+
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Noveen Sachdeva</title>
+  <meta name="author" content="Noveen Sachdeva">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141271444-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141271444-1');
+  </script>
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%; padding-bottom:0px;width:63%;vertical-align:middle">
+              <div>
+                <table style="padding-bottom: 10px;">
+                  <tr>
+                    <td> <img src="images/ucsdtrident2.png" height="80px;" style="padding-right: 10px;"> </td>
+                    <td style="vertical-align: bottom;">
+                      <name>Noveen Sachdeva</name> <a href="/cdn-cgi/l/email-protection#bdd3d2cedcded5d9d8fdc8deced993d8d9c8"><pre><code><span class="__cf_email__" data-cfemail="f59b9a8694969d9190b580968691db909180">[email&#160;protected]</span></code></pre></a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <p>
+                I am a PhD student in the CSE Department at <b><a href="https://cse.ucsd.edu/">UC San Diego</a></b> where I am extremely fortunate to be advised by <a href="https://cseweb.ucsd.edu/~jmcauley/">Prof. Julian McAuley</a>.
+              </p>
+              <p>
+                My (current) research interests in Machine Learning are Data Mining, NLP, Information Retrieval, Causal Inference, and Reinforcement learning <b>(in no particular order)</b>. 
+              </p>
+              <p>
+                More specifically, I have previously been working on sequential recommender systems (<a href="#recsys_18">RecSys '18</a>, <a href="#ecir_18">ECIR '18</a>, <a href="#wsdm_19">WSDM '19</a>), off-policy learning (<a href="#kdd_20">KDD '20</a>), NLP (<a href="#sigir_20">SIGIR '20</a>), and extreme classification (<a href="#www_21">WWW '21</a>).
+              </p>
+
+              <p style="text-align:center">
+                <!-- <a href="mailto:nosachde@ucsd.edu">Email</a> &nbsp/&nbsp -->
+                <a href="data/Noveen_CV.pdf">CV</a> &nbsp/&nbsp
+                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?hl=en&user=i6tMWAoAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/noveens97">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/noveens/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/noveen_circle.png" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <!-- RECENT NEWS -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding: 20px; width:100%;vertical-align:middle">
+              <heading>Recent News</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-bottom: 10px;"><tbody>
+          <tr>
+            <td style="padding-left:25px;width:100%;vertical-align:middle">
+              <li><b>[Jun '21]</b> Excited to start a research internship at Pinterest!</li>
+              <li><b>[Jun '21]</b> Paper accepted for a <span style="color: red;">spotlight</span> presentation at ICML-W!</li>
+              <li><b>[Jan '21]</b> Paper w/ Anshul, Sheshansh, Sumeet, Puru, and Manik accepted to WWW '21!</li>
+              <li><b>[Oct '20]</b> Mentoring a group of three brilliant undergraduates at UC San Diego.</li>
+              <li><b>[Oct '20]</b> Awarded the Jacobs School of Engineering Fellowship at UC San Diego.</li>
+            </td>
+          </tr>
+        </tbody> </table>
+
+
+
+        <!-- RESEARCH PUBS -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto; cellpadding:10px;"><tbody>
+          <tr id="icml_w_21" style="">
+            <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>SVP-CF: Selection via Proxy for Collaborative Filtering Data</papertitle>
+                  <br>
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://sites.google.com/site/carolejeanwu">Carole-Jean Wu</a>,
+                  <a href="https://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+                  <br>
+                  <span style="color: red;">[Spotlight]</span> <em><a href="https://sites.google.com/view/icml-2021-subsetml/home">SubSetML Workshop</a> @ International Conference on Machine Learning (ICML)</em>, 2021
+                  <br>
+                  <a href="https://arxiv.org/abs/2107.04984">Public PDF</a> /
+                  <a href="data/icml_21.bib">BibTeX</a>
+                </td>
+                <!-- <td style="padding: 0px;">
+                  <img style="vertical-align: middle;" src="images/msr.gif" height="70px">
+                </td> -->
+              </tr>  </table>
+              <!-- <a href="http://yenchenlin.me/inerf/">project page</a> /
+              <a href="https://arxiv.org/abs/2012.05877">arXiv</a> /
+              <a href="https://www.youtube.com/watch?v=eQuCZaQN0tI">video</a> -->
+              <!-- <p>
+                A GCN-inspired, scalable and accurate extreme classification algorithm. Uses label-label correlation patterns to massively improve tail-label performance.</p>
+              </p> -->
+            </td>
+          </tr>
+          
+          <tr id="www_21" style="">
+            <td style="padding-left:20px;padding-right: 20px; width:100%;vertical-align:middle;">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>ECLARE: Extreme Classification with Label Graph Correlations</papertitle>
+                  <br>
+                  <a href="http://anshulmittal.org">Anshul Mittal</a>, 
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://www.linkedin.com/in/sheshansh-agrawal-b5a79b97/">Sheshansh Agrawal</a>,
+                  <a href="https://web.iitd.ac.in/~sumeet/">Sumeet Agarwal</a>,
+                  <a href="https://www.cse.iitk.ac.in/users/purushot/">Purushottam Kar</a>,
+                  <a href="http://manikvarma.org">Manik Varma</a>
+                  <br>
+                  <em>The Web Conference (WWW)</em>, 2021
+                  <br>
+                  <a href="https://doi.org/10.1145/3442381.3449815">ACM</a> /
+                  <a href="http://manikvarma.org/pubs/mittal21b.pdf">Public PDF</a> /
+                  <a href="https://github.com/Extreme-classification/ECLARE">Code</a> /
+                  <a href="https://www.youtube.com/watch?v=A2Sb6x380F4">Video</a> /
+                  <a href="data/www_21.bib">BibTeX</a>
+                  <!-- Notified, coming soon! -->
+                </td>
+                <!-- <td style="padding: 0px;">
+                  <img style="vertical-align: middle;" src="images/msr.gif" height="70px">
+                </td> -->
+              </tr>  </table>
+              <!-- <a href="http://yenchenlin.me/inerf/">project page</a> /
+              <a href="https://arxiv.org/abs/2012.05877">arXiv</a> /
+              <a href="https://www.youtube.com/watch?v=eQuCZaQN0tI">video</a> -->
+              <!-- <p>
+                A GCN-inspired, scalable and accurate extreme classification algorithm. Uses label-label correlation patterns to massively improve tail-label performance.</p>
+              </p> -->
+            </td>
+          </tr>
+
+          <tr id="kdd_20">
+            <td style="padding-left:20px; width:100%;vertical-align:middle">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Off-policy Bandits with Deficient Support</papertitle>
+                  <br>
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://www.yisu.moe">Yi Su</a>, 
+                  <a href="http://www.cs.cornell.edu/people/tj/">Thorsten Joachims</a>
+                  <br>
+                  <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)</em>, 2020
+                  <br>
+                  <a href="https://doi.org/10.1145/3394486.3403139">ACM</a> /
+                  <a href="https://arxiv.org/pdf/2006.09438.pdf">arXiv</a> /
+                  <a href="https://github.com/noveens/LearningWithDeficientSupport">Code</a> /
+                  <a href="data/kdd_20.bib">BibTeX</a>
+                </td>
+                <!-- <td>
+                  <img style="vertical-align: middle;" src="images/cornell.gif" height="82px">
+                </td> -->
+              </tr> </table>
+              <!-- <p>
+                TO FILL.
+              </p> -->
+            </td>
+          </tr>
+
+          <tr id="sigir_20">
+            <td style="padding-left:20px;width:100%;vertical-align:middle">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>How Useful are Reviews for Recommendation? A Critical Review and Potential Improvements</papertitle>
+                  <br>
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a>
+                  <br>
+                  <em>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020
+                  <br>
+                  <a href="https://doi.org/10.1145/3397271.3401281">ACM</a> /
+                  <a href="https://cseweb.ucsd.edu/~jmcauley/pdfs/sigir20.pdf">arXiv</a> /
+                  <a href="https://github.com/noveens/reviews4rec">Code</a> /
+                  <a href="data/sigir_20.bib">BibTeX</a>
+                </td>
+                <!-- <td>
+                  <img style="vertical-align: middle;" src="images/ucsd.png" height="82px">
+                </td> -->
+              </tr> </table>
+              <!-- <p>
+                TO FILL.
+              </p> -->
+            </td>
+          </tr>
+
+          <tr id="wsdm_19">
+            <td style="padding-left:20px;width:100%;vertical-align:middle">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Sequential Variational Autoencoders for Collaborative Filtering</papertitle>
+                  <br>
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://gmanco.github.io">Giuseppe Manco</a>,
+                  <a href="https://scholar.google.it/citations?user=bXTGoEMAAAAJ&hl=en">Ettore Ritacco</a>,
+                  <a href="https://faculty.iiit.ac.in/~vikram/">Vikram Pudi</a>
+                  <br>
+                  <em>ACM International Conference on Web Search and Data Mining (WSDM)</em>, 2019
+                  <br>
+                  <a href="https://doi.org/10.1145/3289600.3291007">ACM</a> /
+                  <a href="https://arxiv.org/pdf/1811.09975.pdf">arXiv</a> /
+                  <a href="https://github.com/noveens/svae_cf">Code</a> /
+                  <a href="data/wsdm_19.bib">BibTeX</a>
+                </td>
+                <!-- <td>
+                  <img style="vertical-align: middle;" src="images/icar.jpg" height="82px">
+                </td> -->
+              </tr> </table>
+              <!-- <p>
+                TO FILL.
+              </p> -->
+            </td>
+          </tr>
+
+          <tr id="recsys_18">
+            <td style="padding-left:20px;width:100%;vertical-align:middle">
+              <table style="width: 100%;"> <tr>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Attentive Neural Architecture Incorporating Song Features For Music Recommendation</papertitle>
+                  <br>
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://www.linkedin.com/in/kartik-gupta-185884bb/?originalSubdomain=in"> Kartik Gupta</a>,
+                  <a href="https://faculty.iiit.ac.in/~vikram/">Vikram Pudi</a>
+                  <br>
+                  <em>ACM International Conference on Recommender Systems (RecSys)</em>, 2018
+                  <br>
+                  <a href="https://doi.org/10.1145/3240323.3240397">ACM</a> /
+                  <a href="https://arxiv.org/pdf/1811.08203.pdf">arXiv</a> /
+                  <a href="data/recsys_18.bib">BibTeX</a>
+                </td>
+                <!-- <td>
+                  <img style="vertical-align: middle;" src="images/icar.jpg" width="100px">
+                </td> -->
+              </tr> </table>
+              <!-- <p>
+                TO FILL.
+              </p> -->
+            </td>
+          </tr>
+
+          <tr id="ecir_18">
+            <td style="padding-left:20px;width:100%;vertical-align:middle">
+              <table style="width: 100%;"> <tr>
+                <td style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Explicit Modelling of the Implicit Short Term User Preferences for Music Recommendation</papertitle>
+                  <br>
+                  <a href="https://www.linkedin.com/in/kartik-gupta-185884bb/?originalSubdomain=in"> Kartik Gupta</a>,
+                  <strong>Noveen Sachdeva</strong>, 
+                  <a href="https://faculty.iiit.ac.in/~vikram/">Vikram Pudi</a>
+                  <br>
+                  <em>European Conference on Information Retrieval (ECIR)</em>, 2018
+                  <br>
+                  <a href="https://doi.org/10.1007/978-3-319-76941-7_25">PDF</a> /
+                  <a href="data/ecir_18.bib">BibTeX</a>
+                </td>
+                <!-- <td>
+                  <img style="vertical-align: middle;" src="images/icar.jpg" width="100px">
+                </td> -->
+              </tr> </table>
+              <!-- <p>
+                TO FILL.
+              </p> -->
+            </td>
+          </tr>
+
+        </tbody></table>
+        
+          
+
+        <!-- EXPERIENCE -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Experience</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;cellpadding:10px;"><tbody>
+
+          <tr>
+            <td style="padding-left:20px; width: 20%; vertical-align:middle">
+              
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
+                  <img style="vertical-align: middle; width: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/pinterest.png">
+                </td>
+                <td class="underline" style="width: 80%; padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Pinterest</papertitle>
+                  <br>
+                  Research Intern &nbsp; <em>with</em> &nbsp; <a href="https://www.linkedin.com/in/jiajing-xu-3866a43/">Dr. Jiajing Xu</a> & <a href="https://www.linkedin.com/in/jinyin-zhang-68b80060/">Dr. Jinying Zhang</a>
+                  <br>
+                  San Francisco, CA &nbsp; · &nbsp; <em> Jun 2021 - Present </em>
+                  <br>
+                  <p>
+                    Working on improving the ads quality and ad-ranking systems at Pinterest.
+                  </p>
+                </td> 
+              </tr> </table>
+            
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding-left:20px; width: 20%; vertical-align:middle">
+              
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
+                  <img style="vertical-align: middle; width: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/msr.gif">
+                </td>
+                <td class="underline" style="width: 80%; padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Microsoft Research</papertitle>
+                  <br>
+                  Research Intern &nbsp; <em>with</em> &nbsp; <a href="http://manikvarma.org">Dr. Manik Varma</a>
+                  <br>
+                  Bengaluru, India &nbsp; · &nbsp; <em> Jan 2020 - Jun 2020 </em>
+                  <br>
+                  <p>
+                    Worked on building better machine learning algorithms at the million-scale (Extreme Classification). Formulated a scalable, GCN-inspired algorithm which exploits label-label correlation patterns to massively improve tail-label performance. <em><a href="#www_21">[WWW '21]</a></em>
+                  </p>
+                </td> 
+              </tr> </table>
+            
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 110px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/ucsd.png">
+                </td>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>UC San Diego</papertitle>
+                  <br>
+                  Research Assistant &nbsp; <em>with</em> &nbsp; <a href="https://cseweb.ucsd.edu/~jmcauley/">Prof. Julian McAuley</a>
+                  <br>
+                  San Diego, CA &nbsp; · &nbsp; <em> Aug 2019 - Oct 2019 </em>
+                  <br>
+                  <p>
+                    Ascertained a highly relevant problem in existing recommender systems that exploit textual reviews for rating prediction, and generalize it. Wrote a paper about the realized problem and possible fixes under different scenarios. <em><a href="#sigir_20">[SIGIR '20]</a></em>
+                  </p>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 105px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/cornell.gif">
+                </td>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Cornell University</papertitle>
+                  <br>
+                  Research Assistant &nbsp; <em>with</em> &nbsp; <a href="http://www.cs.cornell.edu/people/tj/">Prof. Thorsten Joachims</a>
+                  <br>
+                  San Diego, CA &nbsp; · &nbsp; <em> Jun 2019 - Jul 2019 </em>
+                  <br>
+                  <p>
+                    Worked at the intersection of causal inference, counterfactual learning, and reinforcement learning. The project contributed towards making off-policy learning from biased, logged contextual-bandit data more robust. Formalized a novel, highly relevant problem and generalized different existing estimators. <em><a href="#kdd_20">[KDD '20]</a></em>
+                  </p>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 80px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/pwc.jpg">
+                </td>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>PricewaterhouseCoopers LLP (PwC)</papertitle>
+                  <br>
+                  Data Science Intern &nbsp; <em>with</em> &nbsp; Data Science & Innovation team
+                  <br>
+                  Tampa, FL (Remote) &nbsp; · &nbsp; <em> Aug 2018 - Nov 2018 </em>
+                  <br>
+                  <p>
+                    Worked on clause extraction from sensitive legal documents for top clients in the US. Formulated a de-generate pipeline and compared different statistical and deep-learning-based models for the given task. Reduced task time from days to a few hours, enabling PwC to get new clients in the legal sector.
+                  </p>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td class="underline" style="padding: 0px; height: 120px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/icar.jpg">
+                </td>
+                <td class="underline" style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>ICAR-CNR (National Research Council of Italy)</papertitle>
+                  <br>
+                  Research Assistant &nbsp; <em>with</em> &nbsp; <a href="https://gmanco.github.io">Dr. Giuseppe Manco</a>
+                  <br>
+                  Cosenza, Italy &nbsp; · &nbsp; <em> May 2018 - Jul 2018 </em>
+                  <br>
+                  <p>
+                    Majorly worked on building novel and better systems suited for the task of next-item recommendation. Devised a taxonomy of VAE models for collaborative filtering, demonstrating huge gains over the state-of-the-art on real-world datasets. <em><a href="#wsdm_19">[WSDM '19]</a></em>
+                  </p>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td style="padding: 0px; height: 100px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/gsoc.png">
+                </td>
+                <td style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>Google Summer of Code</papertitle>
+                  <br>
+                  Summer Participant &nbsp; <em>with</em> &nbsp; <a href="https://en.wikipedia.org/wiki/OwnCloud">ownCloud</a>
+                  <br>
+                  Remote &nbsp; · &nbsp; <em> May 2017 - Aug 2017 </em>
+                  <br>
+                  <p>
+                    Implemented a <a href="https://github.com/owncloud/owncloud-sdk">JS-library</a>, complete with unit-tests and swagger-documentation, which works both on Node.JS and browser. <em><a href="https://owncloud.com/news/owncloud-receives-a-new-user-interface/">[Media coverage]</a></em>
+                  </p>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+
+
+        <!-- EDUCATION -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:30px;width:100%;vertical-align:middle">
+              <heading>Education</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td style="padding: 0px; height: 80px; width: 20%;">
+                  <img style="vertical-align: middle; height: 100%; margin-left: auto; margin-right: auto; display: block;" src="images/ucsd.png">
+                </td>
+                <td style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>UC San Diego</papertitle>
+                  <br>
+                  Ph.D. in Computer Science & Engineering &nbsp; · &nbsp; <em> 4.0 </em>
+                  <br>
+                  San Diego, CA &nbsp; · &nbsp; <em> 2020 - <span style="color: red;">Present</span></em>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:middle;">
+              <table style="width: 100%; table-layout: fixed;"> <tr>
+                <td style="padding: 0px; height: 80px; width: 20%;">
+                  <img style="vertical-align: middle; height: 80%; margin-left: auto; margin-right: auto; display: block;" src="images/iiit.png">
+                </td>
+                <td style="width: 80%;padding-bottom: 8px; padding-top: 8px;">
+                  <papertitle>IIIT Hyderabad</papertitle>
+                  <br>
+                  B.Tech & M.S. (by research) in Computer Science & Engineering &nbsp; · &nbsp; <em> 9.75 / 10.0 </em>
+                  <br>
+                  Hyderabad, India &nbsp; · &nbsp; <em> 2015 - 2020</em>
+                </td>
+              </tr> </table>
+            </td>
+          </tr>
+
+
+
+      </td>
+    </tr>
+  </table>
+
+  <p style="padding-top: 3%; text-align: center;">Thanks to <a href="https://jonbarron.info/">Jon Barron</a> for the nice template!</p>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>
